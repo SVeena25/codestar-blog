@@ -1,6 +1,48 @@
 .venv/
 venv/
 
+
+
+.venv/blog/static/
+blog/static/    
+.DS_Store
+*.pyo
+*.pyc   
+*.pyd
+*.so
+_init__.py
+*.dist-info/
+*.egg-info/
+.eggs/
+dist/
+build
+
+pip-wheel-metadata/
+# Django
+
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+*.log
+# Environment files
+.env
+.env.*
+# Editor/IDE
+.vscode/
+*.code-workspace
+# Testing/coverage
+.coverage
+htmlcov/
+.pytest_cache/
+# OS-specific
+Thumbs.db
+Desktop.ini
+# Misc cache
+.cache/
+# Virtual environments
+.venv/
+venv/
 # Python cache/artifacts
 __pycache__/
 *.py[cod]
@@ -8,37 +50,30 @@ __pycache__/
 *.pyc
 *.pyd
 *.so
-
 # Packaging
 *.egg-info/
 .eggs/
 dist/
 build/
 pip-wheel-metadata/
+.venv/blog/__pycache__/
+.venv/blog/*.pyc
+.venv/blog/*.pyo
+.venv/blog/*.pyd
+.venv/blog/*.so
+.venv/blog/migrations/__pycache__/
+.venv/blog/migrations/*.pyc
+.venv/blog/migrations/*.pyo
+.venv/blog/migrations/*.pyd
+.venv/blog/migrations/*.so
+.venv/codestar/__pycache__/
+.venv/codestar/*.pyc
+.venv/codestar/*.pyo
+.venv/codestar/*.pyd
+.venv/codestar/*.so
+.venv/codestar/migrations/__pycache__/
+.venv/codestar/migrations/*.pyc
+.venv/codestar/migrations/*.pyo
+.venv/codestar/migrations/*.pyd
+.venv/codestar/migrations/*.so
 
-# Django
-db.sqlite3
-*.sqlite3
-media/
-staticfiles/
-*.log
-
-# Environment files
-.env
-.env.*
-
-# Editor/IDE
-.vscode/
-*.code-workspace
-
-# Testing/coverage
-.coverage
-htmlcov/
-.pytest_cache/
-
-# OS-specific
-Thumbs.db
-Desktop.ini
-
-# Misc cache
-.cache/
