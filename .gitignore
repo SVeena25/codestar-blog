@@ -1,1 +1,44 @@
 .venv/
+venv/
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.so
+
+# Packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Django
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Editor/IDE
+.vscode/
+*.code-workspace
+
+# Testing/coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS-specific
+Thumbs.db
+Desktop.ini
+
+# Misc cache
+.cache/
