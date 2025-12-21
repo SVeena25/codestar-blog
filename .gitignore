@@ -8,3 +8,5 @@ node_modules/
 .github/
 cloudinary_python.txt
 .venv
+blog\__pycache__/
+codestar\__pycache__/
