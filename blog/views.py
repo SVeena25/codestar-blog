@@ -31,3 +31,4 @@ def post_detail(request, slug):
         "blog/post_detail.html",
         {"post": post},
     )
+# how is a single event is queried from the database.
